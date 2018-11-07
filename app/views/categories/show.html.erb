@@ -1,4 +1,4 @@
 <%= @category.posts.each do |category| %>
-  <%= link_to @category.post.title, post_path(@post) %>
-  <%= @category.post.content %>
+  <%= link_to @category.posts.title, post_path(@post) %>
+  <%= @category.posts.content %>
 <% end %>
